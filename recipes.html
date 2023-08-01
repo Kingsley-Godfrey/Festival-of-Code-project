@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Bites Recipe Database</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .recipe-container {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        h3 {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="recipes">
+            <h1>Healthy Bites Recipe Database</h1>
+            <div class="recipe-container">
+                <h2>Veggie Stir-Fry</h2>
+        <h3>Ingredients:</h3>
+        <ul>
+            <li>Broccoli</li>
+            <li>Carrots</li>
+            <li>Bell Peppers</li>
+            <li>Tofu</li>
+            <li>Soy Sauce</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Chop veggies and tofu.</li>
+            <li>Stir-fry in a pan with soy sauce.</li>
+            <li>Serve hot.</li>
+        </ol>
+            </div>
+            <div class="recipe-container">
+                <h2>Quinoa Salad</h2>
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>Cooked Quinoa</li>
+                    <li>Cucumbers</li>
+                    <li>Tomatoes</li>
+                    <li>Red Onion</li>
+                    <li>Olive Oil</li>
+                    <li>Lemon Juice</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Combine all ingredients in a bowl.</li>
+                    <li>Mix well.</li>
+                    <li>Chill before serving.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Healthy Bites</h2>
+            <p>
+                Healthy Bites is a website that helps you (to be finished later)
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                For any inquiries or feedback, please email us at: contact@healthybites.com
+            </p>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+    <p align="center" class="rainbow-link"><a href="index.html" class="rainbow-link">Home</a></p>
+</body>
+</html>
+<script src="data.js"></script>
+<script>
+  window.onload = displayRecipes; // Call the function when the page loads
+</script>

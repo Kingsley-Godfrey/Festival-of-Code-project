@@ -1,78 +1,87 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Password Generator</title>
-        <style>
-             body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-    
-    nav {
-      background-color: #555;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-    
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin-right: 10px;
-    }
-    
-    main {
-      padding: 20px;
-    }
-    
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-  
-@keyframes rainbow {
-  0% { color: red; }
-  16.67% { color: orange; }
-  33.33% { color: yellow; }
-  50% { color: green; }
-  66.67% { color: blue; }
-  83.33% { color: indigo; }
-  100% { color: violet; }
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
 
-.rainbow-link {
-  animation: rainbow 4s infinite;
-  background-image: linear-gradient(to right, red, orange, yellow, green, blue, rgb(77, 0, 132), violet);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1>Put in later</h1>
-        </header>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#uses">Uses</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <main>
-            <section id="about">
-                <p align="center">click here use our own</p>
-                <p align="center"><a href="password.html" class="rainbow-link">Password Generator</a></p>
-            </section>
-        </main>
-    </body>
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        /* Add your custom styles for the "about" section here */
+        #about {
+            text-align: center;
+        }
+
+        /* Add your custom styles for the "password generator" link here */
+        .rainbow-link {
+            animation: rainbow 4s infinite;
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, rgb(77, 0, 132), violet);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 20px;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            16.67% { color: orange; }
+            33.33% { color: yellow; }
+            50% { color: green; }
+            66.67% { color: blue; }
+            83.33% { color: indigo; }
+            100% { color: violet; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Put in later</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#uses">Uses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <p align="center">Click here to use our own</p>
+            <p align="center"><a href="password.html" class="rainbow-link">Password Generator</a></p>
+            <p align="center" class="rainbow-link"><a href="recipes.html" class="rainbow-link">Click here to view healthy recipes.</a></p>
+            <p align="center" class="rainbow-link"><a href="registration.html">Register</a></p>
+            <p align="center" class="rainbow-link"><a href="login.html">Login</a></p>
+        </section>
+    </main>
+</body>
 </html>
